@@ -1,27 +1,79 @@
-/* You can add global styles to this file, and also import other style files */
-:root{
-    color-scheme: light dark; 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+:root {
+  color-scheme: light dark;
+  --general-bg: #2f303a;
+  $header-footer-icons-form: #202027;
+  $nav-hover: #202027;
+  $border-input: #2e3852;
+  $border-input-focus: #596da0;
+  --button-bck: #1762a7;
+  $button-hover: #2180d8;
+  $button-focus: #2796ff;
+  $accent-text: #2796ff;
+  --circle: #bc3a801a;
+  --circles: #3457b21a;
+
+  // fonts
+  --font-main:"poppins";
 }
-
-$general-bg: #2F303A;
-$header-footer-icons-form: #202027;
-$nav-hover:#202027;
-$border-input:#2E3852;
-$border-input-focus:#596da0;
-$button-bck: #1762A7;
-$button-hover: #2180d8;
-$button-focus: #2796ff;
-$accent-text: #2796ff;
-$circle: #bc3a801a;
-$circles: #3457b21a;
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 
 body{
-    background-color: $general-bg;
-    font-family: Poppins;
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+	background-color: var(--general-bg);
 }
+
+*{
+	font-family: poppins;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
