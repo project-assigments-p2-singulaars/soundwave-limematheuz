@@ -4,14 +4,14 @@
 :root {
   color-scheme: light dark;
   --general-bg: #2f303a;
-  $header-footer-icons-form: #202027;
-  $nav-hover: #202027;
-  $border-input: #2e3852;
-  $border-input-focus: #596da0;
+  --header-footer-icons-form: #202027;
+  --nav-hover: #202027;
+  --border-input: #2e3852;
+  --border-input-focus: #596da0;
   --button-bck: #1762a7;
-  $button-hover: #2180d8;
-  $button-focus: #2796ff;
-  $accent-text: #2796ff;
+  --button-hover: #2180d8;
+  --button-focus: #2796ff;
+  --accent-text: #ff009d;
   --circle: #bc3a801a;
   --circles: #3457b21a;
 
@@ -24,7 +24,7 @@ body{
 }
 
 *{
-	font-family: poppins;
+	font-family: var(--font-main);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 

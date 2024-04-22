@@ -1,0 +1,29 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--header-footer-icons-form);
+}
+
+.contact-link,
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-link a,
+.social-link a {
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+.social-link a img{
+    width: 16px;
+}

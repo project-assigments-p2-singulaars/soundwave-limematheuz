@@ -1,0 +1,152 @@
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+div{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h3{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+div h3 span{
+    color: var(--accent-text);
+}
+
+form{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--header-footer-icons-form);
+    padding: 2rem;
+    border-radius: 24px;
+}
+label{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid var(--border-input);
+    border-radius: 8px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0;
+    background-color: var(--button-bck);
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: var(--button-hover);
+
+}
+
+.first-span{
+    width: 450px;
+    height: 450px;
+    background-color: var(--circle);
+    position: fixed;
+    border-radius: 50%;
+    bottom: -10%;
+    left: -10%;
+}
+
+.snd-span{
+    width: 350px;
+    height: 350px;
+    background-color: var(--circles);
+    position: fixed;
+    border-radius: 50%;
+    top: -10%;
+    left: 15%;
+    z-index: -1;
+}
+
+@media (max-width:700px) {
+    section{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    div{
+        width: 80%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div h3{
+        font-size: 4rem;
+        font-weight: bold;
+        text-align: start;
+        
+    }
+
+    form{
+        width: 75%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        background-color: var(--header-footer-icons-form);
+        padding: 1rem 2rem;
+        border-radius: 24px;
+    }
+
+    .first-span{
+        width: 150px;
+        height: 150px;
+        background-color: var(--circle);
+        position: fixed;
+        border-radius: 50%;
+        bottom: 0%;
+        left: -5%;
+        z-index: -1;
+    }
+    
+    .snd-span{
+        width: 150px;
+        height: 150px;
+        background-color: var(--circles);
+        position: fixed;
+        border-radius: 50%;
+        top: -5%;
+        left: 15%;
+        z-index: -1;
+    }
+}
