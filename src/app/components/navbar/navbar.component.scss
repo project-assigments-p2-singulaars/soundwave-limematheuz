@@ -18,7 +18,13 @@ a {
   gap: 10px;
 }
 
-h1{
+a:hover {
+  color: var(--nav-hover);
+  scale: 1.01;
+  transition: all ease-in-out 0.3s
+}
+
+h1 {
   font-size: 1.2rem;
 }
 

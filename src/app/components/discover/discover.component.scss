@@ -44,6 +44,12 @@ section{
     background-color: var(--header-footer-icons-form);
 }
 
+.discover-icons:hover{
+    background-color: var(--accent-text);
+    scale: 1.1;
+    transition: all ease-in-out 0.3s
+}
+
 .discover-icons img{
     width: 36px;
 }

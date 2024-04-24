@@ -24,6 +24,10 @@ footer {
   gap: 10px;
 }
 
+.contact-link a:hover, .social-link a:hover{
+  color: var(--nav-hover);
+}
+
 .social-link a img{
     width: 16px;
 }
